@@ -9,7 +9,13 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "capabilities": {
+    "hoverProvider": "true"
+  },
+  "activationEvents": [
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
